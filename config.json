@@ -21,22 +21,22 @@
     "telegram": {
         "whitelabel": "@GegeVPS",
         "admin_ids": [
-            01020120102
+            1020120102
         ],
         "bot": {
             "token": "<BOT_TOKEN>",
             "api": {
-                "protocol": "http",
-                "host": "127.0.0.1",
-                "port": 8081
+                "protocol": "https",
+                "host": "api.telegram.org",
+                "port": 443
             }
         },
         "botnotif": {
             "token": "<BOTNOTIF_TOKEN>",
             "api": {
-                "protocol": "http",
-                "host": "127.0.0.1",
-                "port": 8081    
+                "protocol": "https",
+                "host": "api.telegram.org",
+                "port": 443
             }
         }
     }
