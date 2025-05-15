@@ -1,2 +1,2 @@
-# vpnpanel-docs
-VPN Telegram Panel Docs
+# VPN Telegram Panel Documentation
+
