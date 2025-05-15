@@ -1,0 +1,43 @@
+{
+    "log": {
+        "level": "info",
+        "dir": "./data/log"
+    },
+    "database": {
+        "table_name": {
+            "session": "./data/users.db",
+            "botdata": "./data/users.db:botdata",
+            "userdata": "./data/users.db:userdata",
+            "reseller": "./data/users.db:reseller",
+            "server": "./data/tunnel.db:server",
+            "plan": "./data/tunnel.db:plan",
+            "cashflow": "./data/billing.db:cashflow",
+            "billing": "./data/billing.db:billing",
+            "paypal_token": "./data/billing.db:paypal_token",
+            "paypal_invoice": "./data/billing.db:paypal_invoice",
+            "tripay_invoice": "./data/billing.db:tripay_invoice"
+        }
+    },
+    "telegram": {
+        "whitelabel": "@GegeVPS",
+        "admin_ids": [
+            01020120102
+        ],
+        "bot": {
+            "token": "<BOT_TOKEN>",
+            "api": {
+                "protocol": "http",
+                "host": "127.0.0.1",
+                "port": 8081
+            }
+        },
+        "botnotif": {
+            "token": "<BOTNOTIF_TOKEN>",
+            "api": {
+                "protocol": "http",
+                "host": "127.0.0.1",
+                "port": 8081    
+            }
+        }
+    }
+}
