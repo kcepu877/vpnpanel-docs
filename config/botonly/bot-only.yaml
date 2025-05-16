@@ -1,0 +1,7 @@
+services:
+  bot:
+    image: gegedesembri/vpnpanel:latest
+    volumes:
+      - ./data:/app/data
+      - ./config.json:/app/config.json
+    command: --config=./config.json

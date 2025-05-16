@@ -1,0 +1,18 @@
+services:
+  api:
+    image: gegedesembri/telegram-bot-api:latest
+    environment:
+      TELEGRAM_API_ID: "<TELEGRAM_API_ID>"
+      TELEGRAM_API_HASH: "<TELEGRAM_API_HASH>"
+    volumes:
+      - telegram-bot-api-data:/var/lib/telegram-bot-api
+    restart: always
+  bot:
+    image: gegedesembri/vpnpanel:latest
+    volumes:
+      - ./data:/app/data
+      - ./config.json:/app/config.json
+    command: --config=./config.json
+
+volumes:
+  telegram-bot-api-data:
