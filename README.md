@@ -1,6 +1,37 @@
 
 # VPN Telegram Panel Documentation
 
+### Installation
+
+1. Install Docker Container on your server. [Follow the tutorial here](https://docs.docker.com/engine/install/)
+2. Clone this Repository
+	```bash
+	git clone https://github.com/GegeDevs/vpnpanel-docs.git ./vpnpanel
+	```
+3. Use one of these two options
+
+	a) Bot Server Only
+	```bash
+	cd ./vpnpanel/config/botonly
+	```
+	b) Bot + Telegram API Server
+	```bash
+	cd ./vpnpanel/config/botapi
+	```
+4. Edit `config.json`
+	| TAG | Instruction |
+	|--|--|
+	| `<BOT_TOKEN>` | replace with yout bot token from [botFather](https://t.me/BotFather) |
+	| `<BOTNOTIF_TOKEN>` | replace with yout bot token from [botFather](https://t.me/BotFather) |
+
+5. Start Docker Compose
+	```bash
+	sudo docker compose up -d
+	```
+
+6. Test `/start` on your bot
+
+
 ### Features
 | Tunnel | Code | Action Locally | Action Remotely |
 |--|--|--|--|
