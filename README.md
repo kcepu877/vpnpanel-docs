@@ -1,6 +1,6 @@
 
 
-# VPN Telegram Panel Documentation
+# VPN Telegram Panel - Documentation
 
 ### Overview
 
