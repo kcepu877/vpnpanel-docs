@@ -1,5 +1,6 @@
 
 
+
 # VPN Telegram Panel - Documentation
 
 ### Overview
@@ -40,6 +41,29 @@
 6. Test `/start` on your bot
 
 ### Features
+
+ - Pluginable for Supporting many VPN Server Script 
+ - Supports Multiple tunnel types
+ - Admin Panel Dashboard
+ - Broadcast Message to All Client
+ - Editable Start Notes
+ - Add, Reduce, Check Balance Manual
+ - Add Server
+ - Add Tunnel Plan
+ - Maintenance Mode Toggler
+
+*Features coming soon*
+
+ - Notes for each Tunnel Menu
+ - Hashtag Notes
+ - Edit and List Server
+ - Enable and Disable Server
+ - Remove and List Tunnel Plan
+ - Refill and Reduce Stock
+ - Enable and Disable Tunnel Plan
+ - Add, Remove, and List Reseller
+ - Add, Remove, and List Admin
+ - Auto Deposit with Payment Gateway
 
 ### Tunnel Supported
 | Tunnel | Code | Action Locally | Action Remotely |
