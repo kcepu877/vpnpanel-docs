@@ -6,7 +6,9 @@
 <p align="center">
   <img src="./images/StartClient.png" height="400"/>
   <img src="./images/AdminMenu.png" height="400"/>
-  <img src="./images/TunnelMenu.png" height="400"/>
+</p>
+<p align="center">
+  <img src="./images/TunnelMenu.png" height="300"/>
 </p>
 
 ### Installation
