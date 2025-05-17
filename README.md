@@ -81,7 +81,7 @@
 **`create` | Used to create tunnel accounts
 **`extend` | Used to extend the active period of a tunnel account
 *`info` | Check account details based on bot database
-**`checklog` | Check user login on server
+**`checklogin` | Check user login on server
 **`lock` | Lock tunnel account
 **`unlock` | Unlock tunnel account
 
