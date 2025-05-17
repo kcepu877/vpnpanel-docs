@@ -86,6 +86,7 @@
 **`unlock` | Unlock tunnel account
 
 > *Locally : *No connection to server required*
+
 > **Remotely : *Requires connection to server*
 
 ### Bash Executioner
