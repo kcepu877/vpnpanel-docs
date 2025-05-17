@@ -1,6 +1,4 @@
 
-
-
 # VPN Telegram Panel - Documentation
 
 ### Overview
@@ -39,6 +37,10 @@
 	```
 
 6. Test `/start` on your bot
+
+### Register VPS IP Address for Access [FREE]
+
+Register your VPS IP Address to this bot [GegeVPS AutoScript](https://t.me/GegeVPS_AutoScript_bot). There is a plan for one day every day. You can use it to test the bot's connection to the server.
 
 ### Features
 
