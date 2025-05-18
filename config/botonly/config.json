@@ -8,6 +8,7 @@
             "session": "./data/users.db",
             "botdata": "./data/users.db:botdata",
             "userdata": "./data/users.db:userdata",
+            "admin": "./data/users.db:admin",
             "reseller": "./data/users.db:reseller",
             "server": "./data/tunnel.db:server",
             "plan": "./data/tunnel.db:plan",
