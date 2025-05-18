@@ -51,28 +51,27 @@ Register your VPS IP Address to this bot [GegeVPS AutoScript](https://t.me/GegeV
 
 ### Features
 
- - Pluginable for Supporting many VPN Server Script 
- - Supports Multiple tunnel types
- - Admin Panel Dashboard
- - Broadcast Message to All Client
- - Editable Start Notes
- - Add, Reduce, Check Balance Manual
- - Add Server
- - Add Tunnel Plan
- - Maintenance Mode Toggler
+ - [x] Pluginable for Supporting many VPN Server Script 
+ - [x] Supports Multiple tunnel types
+ - [x] Admin Panel Dashboard
+ - [x] Broadcast Message to All Client
+ - [x] Editable Start Notes
+ - [x] Add, Reduce, Check Balance Manual
+ - [x] Add Server
+ - [x] Add Tunnel Plan
+ - [x] Maintenance Mode Toggler
 
 *Features coming soon*
-
- - Notes for each Tunnel Menu
- - Hashtag Notes
- - Edit and List Server
- - Enable and Disable Server
- - Remove and List Tunnel Plan
- - Refill and Reduce Stock
- - Enable and Disable Tunnel Plan
- - Add, Remove, and List Reseller
- - Add, Remove, and List Admin
- - Auto Deposit with Payment Gateway
+ - [ ] Notes for each Tunnel Menu
+ - [ ] Hashtag Notes
+ - [ ] Edit and List Server
+ - [ ] Enable and Disable Server
+ - [ ] Remove and List Tunnel Plan
+ - [ ] Refill and Reduce Stock
+ - [ ] Enable and Disable Tunnel Plan
+ - [ ] Add, Remove, and List Reseller
+ - [ ] Add, Remove, and List Admin
+ - [ ] Auto Deposit with Payment Gateway
 
 ### Tunnel Supported
 | Tunnel | Code | Action Locally | Action Remotely |
