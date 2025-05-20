@@ -1,5 +1,6 @@
 
 
+
 # VPN Telegram Panel - Documentation
 <p align="center">
 	<a href="https://t.me/gegevps_tunnel_bot"><b>LIVE PREVIEW DEMO</b></a>
@@ -58,20 +59,32 @@ Register your VPS IP Address to this bot [GegeVPS AutoScript](https://t.me/GegeV
  - [x] Editable Start Notes
  - [x] Add, Reduce, Check Balance Manual
  - [x] Add Server
+ - [x] Enable/Disable Server
  - [x] Add Tunnel Plan
  - [x] Maintenance Mode Toggler
+ - [x] Auto Deposit with Payment Gateway [`Tripay`]
 
-*Features coming soon*
+*TODO*
  - [ ] Notes for each Tunnel Menu
  - [ ] Hashtag Notes
- - [ ] Edit and List Server
- - [ ] Enable and Disable Server
- - [ ] Remove and List Tunnel Plan
- - [ ] Refill and Reduce Stock
- - [ ] Enable and Disable Tunnel Plan
- - [ ] Add, Remove, and List Reseller
- - [ ] Add, Remove, and List Admin
- - [ ] Auto Deposit with Payment Gateway
+ - [ ] Delete Server
+ - [ ] Edit Server
+ - [ ] List Server
+ - [ ] Hide/Show Tunnel Type
+ - [ ] Remove Tunnel Plan
+ - [ ] List Tunnel Plan
+ - [ ] Refill Stock
+ - [ ] Reduce Stock
+ - [ ] Enable/Disable Tunnel Plan
+ - [ ] Add Reseller
+ - [ ] Remove Reseller
+ - [ ] List Reseller
+ - [ ] Add Admin
+ - [ ] Remove Admin
+ - [ ] List Admin
+ - [ ] Auto Deposit with Paypal
+ - [ ] Auto Deposit with Midtrans
+ - [ ] Auto Deposit with Orderkuota
 
 ### Tunnel Supported
 | Tunnel | Code | Action Locally | Action Remotely |
