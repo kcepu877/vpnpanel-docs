@@ -89,13 +89,13 @@ Register your VPS IP Address to this bot [GegeVPS AutoScript](https://t.me/GegeV
 ### Tunnel Supported
 | Tunnel | Code | Action Locally | Action Remotely |
 |--|--|--|--|
-| SSH/OpenVPN | `sshovpn` | `info` | `create`, `extend`,<br/>  `checklog`,<br/> `lock`, `unlock` |
-| SoftetherVPN | `sevpn` | `info` | `create`, `extend`,<br/> `checklog`,<br/> `lock`, `unlock` |
-| VMess | `vmess` | `info` | `create`, `extend`,<br/> `checklog`,<br/> `lock`, `unlock` |
-| VLess | `vless` | `info` | `create`, `extend`,<br/> `checklog`,<br/> `lock`, `unlock` |
-| Trojan | `trojan` | `info` | `create`, `extend`,<br/> `checklog`,<br/> `lock`, `unlock` |
-| Shadowsocks | `ssocks` | `info` | `create`, `extend`,<br/> `checklog`,<br/> `lock`, `unlock` |
-| Socks5 | `socks5` | `info` | `create`, `extend`,<br/> `checklog`,<br/> `lock`, `unlock` |
+| SSH/OpenVPN | `sshovpn` | `info` | `create`, `extend`,<br/>  `delete`, `checklog`,<br/> `lock`, `unlock` |
+| SoftetherVPN | `sevpn` | `info` | `create`, `extend`,<br/> `delete`, `checklog`,<br/> `lock`, `unlock` |
+| VMess | `vmess` | `info` | `create`, `extend`,<br/> `delete`, `checklog`,<br/> `lock`, `unlock` |
+| VLess | `vless` | `info` | `create`, `extend`,<br/> `delete`, `checklog`,<br/> `lock`, `unlock` |
+| Trojan | `trojan` | `info` | `create`, `extend`,<br/> `delete`, `checklog`,<br/> `lock`, `unlock` |
+| Shadowsocks | `ssocks` | `info` | `create`, `extend`,<br/> `delete`, `checklog`,<br/> `lock`, `unlock` |
+| Socks5 | `socks5` | `info` | `create`, `extend`,<br/> `delete`, `checklog`,<br/> `lock`, `unlock` |
 
 | Action | Details |
 |--|--|
