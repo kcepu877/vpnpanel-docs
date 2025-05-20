@@ -89,19 +89,20 @@ Register your VPS IP Address to this bot [GegeVPS AutoScript](https://t.me/GegeV
 ### Tunnel Supported
 | Tunnel | Code | Action Locally | Action Remotely |
 |--|--|--|--|
-| SSH/OpenVPN | `sshovpn` | `info` | `create`, `extend`,<br/>  `delete`, `checklog`,<br/> `lock`, `unlock` |
-| SoftetherVPN | `sevpn` | `info` | `create`, `extend`,<br/> `delete`, `checklog`,<br/> `lock`, `unlock` |
-| VMess | `vmess` | `info` | `create`, `extend`,<br/> `delete`, `checklog`,<br/> `lock`, `unlock` |
-| VLess | `vless` | `info` | `create`, `extend`,<br/> `delete`, `checklog`,<br/> `lock`, `unlock` |
-| Trojan | `trojan` | `info` | `create`, `extend`,<br/> `delete`, `checklog`,<br/> `lock`, `unlock` |
-| Shadowsocks | `ssocks` | `info` | `create`, `extend`,<br/> `delete`, `checklog`,<br/> `lock`, `unlock` |
-| Socks5 | `socks5` | `info` | `create`, `extend`,<br/> `delete`, `checklog`,<br/> `lock`, `unlock` |
+| SSH/OpenVPN | `sshovpn` | `info` | `create`, `extend`,<br/>  `delete`, `checklogin`,<br/> `lock`, `unlock` |
+| SoftetherVPN | `sevpn` | `info` | `create`, `extend`,<br/> `delete`, `checklogin`,<br/> `lock`, `unlock` |
+| VMess | `vmess` | `info` | `create`, `extend`,<br/> `delete`, `checklogin`,<br/> `lock`, `unlock` |
+| VLess | `vless` | `info` | `create`, `extend`,<br/> `delete`, `checklogin`,<br/> `lock`, `unlock` |
+| Trojan | `trojan` | `info` | `create`, `extend`,<br/> `delete`, `checklogin`,<br/> `lock`, `unlock` |
+| Shadowsocks | `ssocks` | `info` | `create`, `extend`,<br/> `delete`, `checklogin`,<br/> `lock`, `unlock` |
+| Socks5 | `socks5` | `info` | `create`, `extend`,<br/> `delete`, `checklogin`,<br/> `lock`, `unlock` |
 
 | Action | Details |
 |--|--|
 **`create` | Used to create tunnel accounts
 **`extend` | Used to extend the active period of a tunnel account
 *`info` | Check account details based on bot database
+**`delete` | Delete user account on server
 **`checklogin` | Check user login on server
 **`lock` | Lock tunnel account
 **`unlock` | Unlock tunnel account
