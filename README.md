@@ -1,13 +1,7 @@
-
-
-
 # VPN Telegram Panel - Documentation
-
-<br>
 <p align="center">
 	<a href="https://t.me/gegevps_tunnel_bot"><b>LIVE PREVIEW DEMO</b></a>
 </p>
-<br>
 
 ### Overview
 
@@ -60,20 +54,19 @@ Register your VPS IP Address to this bot [GegeVPS AutoScript](https://t.me/GegeV
  - [x] Admin Panel Dashboard
  - [x] Broadcast Message to All Client
  - [x] Editable Start Notes
+ - [x] Notes for each Tunnel Menu
+ - [x] Hashtag Notes
  - [x] Add, Reduce, Check Balance Manual
- - [x] Add Server
+ - [x] Add and Delete Server
  - [x] Enable/Disable Server
+ - [x] Hide/Show Tunnel Type
  - [x] Add Tunnel Plan
  - [x] Maintenance Mode Toggler
  - [x] Auto Deposit with Payment Gateway [`Tripay`]
 
-*TODO*
- - [ ] Notes for each Tunnel Menu
- - [ ] Hashtag Notes
- - [ ] Delete Server
+*TODO...*
  - [ ] Edit Server
  - [ ] List Server
- - [ ] Hide/Show Tunnel Type
  - [ ] Remove Tunnel Plan
  - [ ] List Tunnel Plan
  - [ ] Refill Stock
