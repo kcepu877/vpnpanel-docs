@@ -62,7 +62,9 @@ Register your VPS IP Address to this bot [GegeVPS AutoScript](https://t.me/GegeV
  - [x] Hide/Show Tunnel Type
  - [x] Add Tunnel Plan
  - [x] Maintenance Mode Toggler
+ - [x] Hide/Show Payment Gateway
  - [x] Auto Deposit with Payment Gateway [`Tripay`]
+ - [x] Auto Deposit with Payment Gateway [`OkeConnect`/`OrderKuota`]
 
 *TODO...*
  - [ ] Edit Server
@@ -80,7 +82,6 @@ Register your VPS IP Address to this bot [GegeVPS AutoScript](https://t.me/GegeV
  - [ ] List Admin
  - [ ] Auto Deposit with Paypal
  - [ ] Auto Deposit with Midtrans
- - [ ] Auto Deposit with Orderkuota
 
 ### Tunnel Supported
 | Tunnel | Code | Action Locally | Action Remotely |
