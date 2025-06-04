@@ -1,0 +1,31 @@
+{
+    "log": {
+        "level": "info",
+        "dir": "./data/log"
+    },
+    "telegram": {
+        "whitelabel": "@GegeVPS",
+        "channels": [
+            "@gegevps_autoscript"
+        ],
+        "admin_ids": [
+            124324324
+        ],
+        "bot": {
+            "token": "<BOT_TOKEN>",
+            "api": {
+                "protocol": "http",
+                "host": "api",
+                "port": 8081
+            }
+        },
+        "botnotif": {
+            "token": "<BOTNOTIF_TOKEN>",
+            "api": {
+                "protocol": "http",
+                "host": "api",
+                "port": 8081    
+            }
+        }
+    }
+}
