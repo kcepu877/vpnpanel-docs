@@ -21,14 +21,8 @@
 	git clone https://github.com/GegeDevs/vpnpanel-docs.git ./vpnpanel
 	```
 3. Use one of these two options
-
-	a) Bot Server Only
 	```bash
-	cd ./vpnpanel/config/botonly
-	```
-	b) Bot + Telegram API Server
-	```bash
-	cd ./vpnpanel/config/botapi
+	cd ./vpnpanel/config
 	```
 4. Edit `config.json`
 	| TAG | Instruction |
