@@ -51,35 +51,27 @@ Register your VPS IP Address to this bot [GegeVPS AutoScript](https://t.me/GegeV
 
  - [x] Pluginable for Supporting many VPN Server Script 
  - [x] Supports Multiple tunnel types
- - [x] Admin Panel Dashboard
+ - [x] Admin Panel Dashboard for Centralize Configuration
  - [x] Broadcast Message to All Client
  - [x] Editable Start Notes
  - [x] Notes for each Tunnel Menu
  - [x] Hashtag Notes
  - [x] Add, Reduce, Check Balance Manual
- - [x] Add and Delete Server
+ - [x] Add, Delete, and List Server
  - [x] Enable/Disable Server
+ - [x] Add, Delete, Edit Tunnel Plan
+ - [x] Enable/Disable Tunnel Plan
  - [x] Hide/Show Tunnel Type
- - [x] Add Tunnel Plan
+ - [x] Add, Remove, and List Reseller
+ - [x] Add, Remove, and List Admin
  - [x] Maintenance Mode Toggler
  - [x] Hide/Show Payment Gateway
+ - [x] Payment Configuration
+ - [x] Hide/Show Payment Method
  - [x] Auto Deposit with Payment Gateway [`Tripay`]
  - [x] Auto Deposit with Payment Gateway [`OkeConnect`/`OrderKuota`]
 
 *TODO...*
- - [ ] Edit Server
- - [ ] List Server
- - [ ] Remove Tunnel Plan
- - [ ] List Tunnel Plan
- - [ ] Refill Stock
- - [ ] Reduce Stock
- - [ ] Enable/Disable Tunnel Plan
- - [ ] Add Reseller
- - [ ] Remove Reseller
- - [ ] List Reseller
- - [ ] Add Admin
- - [ ] Remove Admin
- - [ ] List Admin
  - [ ] Auto Deposit with Paypal
  - [ ] Auto Deposit with Midtrans
 
