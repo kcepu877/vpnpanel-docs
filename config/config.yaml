@@ -4,7 +4,7 @@ log:
 
 telegram:
   whitelabel: "@GegeVPS" # To display the whitelabel name in the main menu
-  channels:
+  channels: # Fitur masih dalam pengembangan, tidak digunakan saat ini
     - "@gegevps_autoscript" # Channel yang harus diikuti oleh client sebelum bisa mengakses bot
     # Tambahkan lebih dari satu channel jika diperlukan, pisahkan dengan koma
   admin_ids: # Daftar Master Admin dengan akses penuh untuk mengelola bot dan co-admin
