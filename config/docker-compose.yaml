@@ -27,8 +27,8 @@ services:
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - ./data:/app/data
-      - ./config.json:/app/config.json
-    command: --config=./config.json
+      - ./config.yaml:/app/config.yaml
+    command: --config=./config.yaml
     depends_on:
       - api
       - nginx
