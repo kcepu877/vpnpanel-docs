@@ -24,7 +24,7 @@
 	```bash
 	cd ./vpnpanel/config
 	```
-4. Edit `config.json`
+4. Edit `config.yaml`
 	| TAG | Instruction |
 	|--|--|
 	| `<BOT_TOKEN>` | replace with yout bot token from [botFather](https://t.me/BotFather) |
