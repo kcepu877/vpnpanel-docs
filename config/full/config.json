@@ -15,16 +15,16 @@
             "token": "<BOT_TOKEN>",
             "api": {
                 "protocol": "http",
-                "host": "api",
-                "port": 8081
+                "host": "nginx",
+                "port": 80
             }
         },
         "botnotif": {
             "token": "<BOTNOTIF_TOKEN>",
             "api": {
                 "protocol": "http",
-                "host": "api",
-                "port": 8081    
+                "host": "nginx",
+                "port": 80
             }
         }
     }
