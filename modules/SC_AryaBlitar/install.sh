@@ -23,7 +23,7 @@ function install_sh(){
 
 function tunnels_list(){
     echo "
-        sshvpn
+        sshovpn
         vmess
         vless
         ssocks
