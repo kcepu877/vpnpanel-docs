@@ -18,6 +18,7 @@ function install_sh(){
     full_link="$(link_gen ${1} ${2})"
     file_name="$(echo "${full_link}" | rev | cut -d'/' -f 1 | rev)"
     wget -qO "${bin_dir}/${file_name}" "${full_link}"
+    chmod +x "${bin_dir}/${file_name}"
 }
 
 function tunnels_list(){
