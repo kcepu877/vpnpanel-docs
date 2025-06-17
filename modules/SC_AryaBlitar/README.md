@@ -4,7 +4,7 @@
 
 1. **Pastikan Anda berada di direktori modul:**
     ```bash
-    wget -qO- https://raw.githubusercontent.com/GegeDevs/vpnpanel-docs/refs/heads/main/modules/SC_AryaBlitar/install.sh | bash
+    wget --header="Cache-Control: no-cache" -qO- https://raw.githubusercontent.com/GegeDevs/vpnpanel-docs/refs/heads/main/modules/SC_AryaBlitar/install.sh | bash
     ```
 
 ## Catatan
