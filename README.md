@@ -97,12 +97,12 @@ Register your VPS IP Address to this bot [GegeVPS AutoScript](https://t.me/GegeV
 File PATH
 
 ```bash
-/etc/gegevps/bin/telegram-<CODE>-<ACTION>.sh
+/etc/gegevps/bin/telegram-<CODE>-<ACTION>.sh <USERNAME> <PASSWORD> <DAYS>
 ```
 
 *example*: 
 
 ```bash
 # VMess Create Account
-/etc/gegevps/bin/telegram-vmess-create.sh
+/etc/gegevps/bin/telegram-vmess-create.sh gegeuser gegepass 30
 ```
