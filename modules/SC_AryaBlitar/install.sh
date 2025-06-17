@@ -45,3 +45,5 @@ tunnels_list | while read -r tunnel; do
         install_sh "${tunnel}" "${action}"
     done
 done
+
+echo "Module ${module_name} installed successfully."
