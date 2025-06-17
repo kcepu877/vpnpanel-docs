@@ -1,6 +1,6 @@
 # SC_AryaBlitar
 
-REFERER: [https://github.com/Arya-Blitar22/st-pusat](https://github.com/Arya-Blitar22/st-pusat)
+REFERER: [Arya-Blitar22/st-pusat](https://github.com/Arya-Blitar22/st-pusat)
 
 ## Cara Menggunakan
 
