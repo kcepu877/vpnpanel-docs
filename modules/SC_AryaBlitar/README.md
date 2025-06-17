@@ -1,5 +1,7 @@
 # SC_AryaBlitar
 
+REFERER: [https://github.com/Arya-Blitar22/st-pusat](https://github.com/Arya-Blitar22/st-pusat)
+
 ## Cara Menggunakan
 
 1. **Pastikan Anda berada di direktori modul:**
