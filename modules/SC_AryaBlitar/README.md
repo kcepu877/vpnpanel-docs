@@ -4,7 +4,7 @@ REFERER: [Arya-Blitar22/st-pusat](https://github.com/Arya-Blitar22/st-pusat)
 
 ## Cara Menggunakan
 
-1. **Pastikan Anda berada di direktori modul:**
+1. **Masukkan baris perintah beriku pada Terminal**
 
     ```bash
     wget --header="Cache-Control: no-cache" -qO- https://raw.githubusercontent.com/GegeDevs/vpnpanel-docs/refs/heads/main/modules/SC_AryaBlitar/install.sh | bash
