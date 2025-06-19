@@ -5,7 +5,7 @@ PASSWORD="$2"
 EXPIRED="$3"
 
 tunnel_name="Trojan"
-tunnel_type="trojan"
+tunnel_type="TROJAN"
 limit_gb="200"
 limit_bytes=$((limit_gb * 1024 * 1024 * 1024))
 expired_timestamp=$(date -d "+${EXPIRED} days" +%s)

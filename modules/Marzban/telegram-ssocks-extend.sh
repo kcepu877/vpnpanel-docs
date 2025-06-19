@@ -64,8 +64,7 @@ fi
 expire=$(echo "${mod_user}" | jq -r '.expire')
 used_traffic=$(echo "${mod_user}" | jq -r '.used_traffic')
 used_traffic_gb=$(awk "BEGIN {printf \"%.2f\", ${used_traffic}/1024/1024/1024}")
-link_ws=$(echo "${mod_user}" | jq -r '.links[0]')
-link_xhttp=$(echo "${mod_user}" | jq -r '.links[1]')
+link=$(echo "${mod_user}" | jq -r '.links[0]')
 
 echo -e "<b>+++++ ${tunnel_name} Account Extended +++++</b>"
 echo -e "Username: <code>${USERNAME}</code>"
@@ -73,6 +72,5 @@ echo -e "Password: <code>${PASSWORD}</code>"
 echo -e "Expired: <code>$(date -d "@${expire}" '+%Y-%m-%d %H:%M:%S')</code>"
 echo -e "Data Limit: <code>${limit_gb}</code> GB"
 echo -e "Used Traffic: <code>${used_traffic_gb}</code> GB"
-echo -e "Websocket : <code>${link_ws}</code>"
-echo -e "XHTTP: <code>${link_xhttp}</code>"
+echo -e "Link : <code>${link}</code>"
 echo -e "<b>+++++ End of Account Details +++++</b>"

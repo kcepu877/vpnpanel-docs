@@ -5,7 +5,7 @@ PASSWORD="$2"
 EXPIRED="$3"
 
 tunnel_name="Shadowsocks"
-tunnel_type="shadowsocks"
+tunnel_type="SHADOWSOCKS"
 limit_gb="200"
 limit_bytes=$((limit_gb * 1024 * 1024 * 1024))
 expired_timestamp=$(date -d "+${EXPIRED} days" +%s)
@@ -31,8 +31,7 @@ req_json='{
   "expire": '"${expired_timestamp}"',
   "inbounds": {
     "vmess": [
-      "'"${tunnel_type}"'_WS",
-      "'"${tunnel_type}"'_XHTTP"
+      "'"${tunnel_type}"'_OUTLINE"
     ]
   },
   "next_plan": {
@@ -67,14 +66,12 @@ if [[ "$http_response" != "200" ]]; then
 fi
 
 expire=$(echo "${res_json}" | jq -r '.expire')
-link_ws=$(echo "${res_json}" | jq -r '.links[0]')
-link_xhttp=$(echo "${res_json}" | jq -r '.links[1]')
+link=$(echo "${res_json}" | jq -r '.links[0]')
 
 echo -e "<b>+++++ ${tunnel_name} Account Created +++++</b>"
 echo -e "Username: <code>${USERNAME}</code>"
 echo -e "Password: <code>${PASSWORD}</code>"
 echo -e "Expired: <code>$(date -d "@${expire}" '+%Y-%m-%d %H:%M:%S')</code>"
 echo -e "Data Limit: <code>${limit_gb}</code> GB"
-echo -e "Websocket : <code>${link_ws}</code>"
-echo -e "XHTTP: <code>${link_xhttp}</code>"
+echo -e "Link : <code>${link}</code>"
 echo -e "<b>+++++ End of Account Details +++++</b>"
