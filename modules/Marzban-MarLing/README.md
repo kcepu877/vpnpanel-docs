@@ -1,4 +1,4 @@
-# Marzban
+# Marzban x MarLing Configuration
 
 REFERER PROJECT: [Gozargah/Marzban](https://github.com/Gozargah/Marzban)
 
