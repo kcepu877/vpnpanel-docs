@@ -1,7 +1,7 @@
 #!/bin/bash
 
 source_code="GegeDevs/vpnpanel-docs"
-module_name="Marzban"
+module_name="Marzban-MarLing"
 bin_dir="/etc/gegevps/bin"
 
 if [[ "$EUID" -ne 0 ]]; then

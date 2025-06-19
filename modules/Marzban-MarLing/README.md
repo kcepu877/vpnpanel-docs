@@ -1,6 +1,7 @@
 # Marzban
 
-REFERER: [Gozargah/Marzban](https://github.com/Gozargah/Marzban)
+REFERER PROJECT: [Gozargah/Marzban](https://github.com/Gozargah/Marzban)
+REFERER CONFIG: [GawrAme/MarLing](https://raw.githubusercontent.com/GawrAme/MarLing/refs/heads/main/xray_config.json)
 
 ## Cara Menggunakan
 
