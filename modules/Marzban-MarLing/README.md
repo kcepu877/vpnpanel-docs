@@ -1,6 +1,7 @@
 # Marzban
 
 REFERER PROJECT: [Gozargah/Marzban](https://github.com/Gozargah/Marzban)
+
 REFERER CONFIG: [GawrAme/MarLing](https://raw.githubusercontent.com/GawrAme/MarLing/refs/heads/main/xray_config.json)
 
 ## Cara Menggunakan
@@ -10,6 +11,7 @@ REFERER CONFIG: [GawrAme/MarLing](https://raw.githubusercontent.com/GawrAme/MarL
     ```bash
     wget --header="Cache-Control: no-cache" -qO- https://raw.githubusercontent.com/GegeDevs/vpnpanel-docs/refs/heads/main/modules/Marzban/install.sh | bash -s -- API_USERNAME API_PASSWORD API_PORT
     ```
+Ganti dan sesuaikan `API_USERNAME`, `API_PASSWORD`, dan `API_PORT`
 
 ## Catatan
 
