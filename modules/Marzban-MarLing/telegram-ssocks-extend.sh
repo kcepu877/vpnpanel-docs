@@ -66,6 +66,7 @@ used_traffic=$(echo "${mod_user}" | jq -r '.used_traffic')
 used_traffic_gb=$(awk "BEGIN {printf \"%.2f\", ${used_traffic}/1024/1024/1024}")
 link=$(echo "${mod_user}" | jq -r '.links[0]')
 
+echo -e "HTML_CODE"
 echo -e "<b>+++++ ${tunnel_name} Account Extended +++++</b>"
 echo -e "Username: <code>${USERNAME}</code>"
 echo -e "Password: <code>${PASSWORD}</code>"

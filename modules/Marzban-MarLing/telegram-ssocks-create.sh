@@ -68,6 +68,7 @@ fi
 expire=$(echo "${res_json}" | jq -r '.expire')
 link=$(echo "${res_json}" | jq -r '.links[0]')
 
+echo -e "HTML_CODE"
 echo -e "<b>+++++ ${tunnel_name} Account Created +++++</b>"
 echo -e "Username: <code>${USERNAME}</code>"
 echo -e "Password: <code>${PASSWORD}</code>"
