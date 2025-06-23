@@ -3,22 +3,20 @@ log:
   dir: ./data/log # Directory to store log files
 
 telegram:
-  whitelabel: "@GegeVPS" # To display the whitelabel name in the main menu
+  whitelabel: "@userkcepu77_bot" # To display the whitelabel name in the main menu
   channels: # Fitur masih dalam pengembangan, tidak digunakan saat ini
-    - "@gegevps_autoscript" # Channel yang harus diikuti oleh client sebelum bisa mengakses bot
+    - "@userkcepu77_bot" # Channel yang harus diikuti oleh client sebelum bisa mengakses bot
     # Tambahkan lebih dari satu channel jika diperlukan, pisahkan dengan koma
   admin_ids: # Daftar Master Admin dengan akses penuh untuk mengelola bot dan co-admin
-    - 124324324 # Ganti dengan ID Telegram Anda
-    - 124123214 # Bisa lebih dari satu ID, pisahkan dengan koma
-    - 123456789 # Contoh ID admin lainnya
-  bot:
-    token: <BOT_TOKEN> # Ganti dengan token bot Telegram Anda
+    - 7109036965 # Ganti dengan ID Telegram Anda
+    bot:
+    token: 8185965489:AAF9SbQ0WJV0Ojg9IPNQ9Z389PnJQziCQbg # Ganti dengan token bot Telegram Anda
     api:
       protocol: http
       host: nginx
       port: 80
   botnotif:
-    token: <BOTNOTIF_TOKEN> # Ganti dengan token bot notifikasi Telegram Anda
+    token: 7874472571:AAFItOL8vjbfbPDNB_k588WxsLllWiioNZo # Ganti dengan token bot notifikasi Telegram Anda
     api:
       protocol: http
       host: nginx
