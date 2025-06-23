@@ -18,7 +18,7 @@
 1. Install Docker Container on your server. [Follow the tutorial here](https://docs.docker.com/engine/install/)
 2. Clone this Repository
 	```bash
-	git clone https://github.com/GegeDevs/vpnpanel-docs.git ./vpnpanel
+	git clone https://github.com/kcepu877/vpnpanel-docs.git ./vpnpanel
 	```
 3. Use one of these two options
 	```bash
