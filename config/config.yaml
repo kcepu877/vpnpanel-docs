@@ -16,7 +16,7 @@ telegram:
       host: nginx
       port: 80
   botnotif:
-    token: 7874472571:AAFItOL8vjbfbPDNB_k588WxsLllWiioNZo # Ganti dengan token bot notifikasi Telegram Anda
+    token: 8011173029:AAGWmprTFOBaEmYHLAD7_tYBnud4SvVzxVo # Ganti dengan token bot notifikasi Telegram Anda
     api:
       protocol: http
       host: nginx
