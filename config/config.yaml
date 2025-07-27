@@ -10,13 +10,13 @@ telegram:
   admin_ids: # Daftar Master Admin dengan akses penuh untuk mengelola bot dan co-admin
     - 7109036965 # Ganti dengan ID Telegram Anda
     bot:
-    token: 8011173029:AAGWmprTFOBaEmYHLAD7_tYBnud4SvVzxVo # Ganti dengan token bot Telegram Anda
+    token: 8185965489:AAF9SbQ0WJV0Ojg9IPNQ9Z389PnJQziCQbg # Ganti dengan token bot Telegram Anda
     api:
       protocol: http
       host: nginx
       port: 80
   botnotif:
-    token: 8011173029:AAGWmprTFOBaEmYHLAD7_tYBnud4SvVzxVo # Ganti dengan token bot notifikasi Telegram Anda
+    token: 8185965489:AAF9SbQ0WJV0Ojg9IPNQ9Z389PnJQziCQbg # Ganti dengan token bot notifikasi Telegram Anda
     api:
       protocol: http
       host: nginx
